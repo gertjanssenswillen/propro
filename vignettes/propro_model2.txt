@@ -1,0 +1,41 @@
+model{
+
+y[1:12] ~ dmulti(theta[1:12], N)
+
+theta[1] <- beta_f*beta[2]*beta[13]*beta[18]
+theta[2] <- beta_f*beta[2]*beta[13]*beta[17]
+theta[3] <- beta_f*beta[2]*beta[13]*beta[16]*beta[20]
+theta[4] <- beta_f*beta[2]*beta[12]*beta[15]
+theta[5] <- beta_f*beta[2]*beta[12]*beta[14]
+theta[6] <- beta_f*beta[1]*beta[4]*beta[9]
+theta[7] <- beta_f*beta[1]*beta[4]*beta[8]
+theta[8] <- beta_f*beta[1]*beta[4]*beta[7]*beta[11]
+theta[9] <- beta_f*beta[1]*beta[3]*beta[6]
+theta[10] <- beta_f*beta[1]*beta[3]*beta[5]
+theta[11] <- (1-beta_f)
+theta[12] <- beta_f*beta[2]*beta[13]*beta[16]*beta[19] + beta[1]*beta[4]*beta[7]*beta[10]
+
+beta[1] ~dbeta(1,1)
+beta[2] <- 1 - (beta[1])
+beta[3] ~dbeta(1,1)
+beta[4] <- 1 - (beta[3])
+beta[5] ~dbeta(1,1)
+beta[6] <- 1 - (beta[5])
+beta[10] <- beta[5]
+beta[11] <- 1 - (beta[10])
+beta[12] <- beta[3]
+beta[13] <- 1 - (beta[12])
+beta[14] <- beta[5]
+beta[15] <- 1 - (beta[14])
+beta[16] <- beta[7]
+beta[17] <- beta[8]
+beta[18] <- beta[9]
+beta[19] <- beta[5]
+beta[20] <- 1 - (beta[19])
+beta_f ~dbeta(1,1)
+beta[7:9] ~ddirich(alpha[1:3])
+
+delta[1] <- beta[5] - beta[9]
+
+
+}

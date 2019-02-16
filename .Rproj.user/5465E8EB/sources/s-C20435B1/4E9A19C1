@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550325719507.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "4E9A19C1",
+    "lastKnownWriteTime" : 1550325731,
+    "last_content_update" : 1550325731971,
+    "path" : "~/UH - Local/R workspace/propro/R/combine_consecutive_priors.R",
+    "project_path" : "R/combine_consecutive_priors.R",
+    "properties" : {
+        "cursorPosition" : "26,23",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

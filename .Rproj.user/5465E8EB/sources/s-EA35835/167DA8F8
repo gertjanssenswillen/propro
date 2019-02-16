@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550320547402.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "736283610",
+    "id" : "167DA8F8",
+    "lastKnownWriteTime" : 1550320700,
+    "last_content_update" : 1550320700720,
+    "path" : "~/UH - Local/R workspace/propro/R/print_propro.R",
+    "project_path" : "R/print_propro.R",
+    "properties" : {
+        "cursorPosition" : "28,32",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

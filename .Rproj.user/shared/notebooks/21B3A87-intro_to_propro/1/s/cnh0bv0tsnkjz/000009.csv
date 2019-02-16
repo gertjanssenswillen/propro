@@ -1,0 +1,3 @@
+"0","net <- model_2_paper_ICPM"
+"0","net$final_marking <- ""p8"""
+"0","render_PN(net)"

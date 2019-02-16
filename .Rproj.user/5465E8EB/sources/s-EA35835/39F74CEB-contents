@@ -1,0 +1,20 @@
+
+set_prior <- function(propro_model, name, value) {
+
+    priors <- propro_model$priors
+
+    if(!(name %in% priors$prior)) {
+        stop("Prior not found")
+    }
+    if(!("specification") %in% colnames(priors)) {
+        priors %>%
+            mutate(specification = NA) -> priors
+    }
+
+
+    priors %>%
+        mutate(specification = ifelse(prior == name, value, specification)) -> priors
+
+    propro_model$priors <- priors
+    return(propro_model)
+}

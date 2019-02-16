@@ -1,0 +1,42 @@
+"0","print_propro(propro)"
+"2","Unknown or uninitialised column: 'specification'."
+"1","model{
+
+y[1:12] ~ dmulti(theta[1:12], N)
+
+theta[1] <- beta_f*beta[2]*beta[13]*beta[18]
+theta[2] <- beta_f*beta[2]*beta[13]*beta[17]
+theta[3] <- beta_f*beta[2]*beta[13]*beta[16]*beta[20]
+theta[4] <- beta_f*beta[2]*beta[12]*beta[15]
+theta[5] <- beta_f*beta[2]*beta[12]*beta[14]
+theta[6] <- beta_f*beta[1]*beta[4]*beta[9]
+theta[7] <- beta_f*beta[1]*beta[4]*beta[8]
+theta[8] <- beta_f*beta[1]*beta[4]*beta[7]*beta[11]
+theta[9] <- beta_f*beta[1]*beta[3]*beta[6]
+theta[10] <- beta_f*beta[1]*beta[3]*beta[5]
+theta[11] <- (1-beta_f)
+theta[12] <- beta_f*beta[2]*beta[13]*beta[16]*beta[19] + beta[1]*beta[4]*beta[7]*beta[10]
+
+beta[1]
+beta[2]
+beta[3]
+beta[4]
+beta[5]
+beta[6]
+beta[7]
+beta[8]
+beta[9]
+beta[10]
+beta[11]
+beta[12]
+beta[13]
+beta[14]
+beta[15]
+beta[16]
+beta[17]
+beta[18]
+beta[19]
+beta[20]
+beta_f
+
+}"

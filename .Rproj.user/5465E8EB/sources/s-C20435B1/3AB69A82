@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550324910777.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "3AB69A82",
+    "lastKnownWriteTime" : 1550325731,
+    "last_content_update" : 1550325731853,
+    "path" : "~/UH - Local/R workspace/propro/R/propro.R",
+    "project_path" : "R/propro.R",
+    "properties" : {
+        "cursorPosition" : "3,161",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

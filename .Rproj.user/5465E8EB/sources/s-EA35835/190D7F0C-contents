@@ -1,0 +1,35 @@
+
+
+
+add_end_transition <- function(PN, final_marking) {
+
+ PN %>%
+    add_places("end_place") %>%
+    add_transitions("End") %>%
+    add_flows(data_frame(from = c(final_marking,"End"), to = c("End","end_place")))  -> PN
+
+    return(PN)
+}
+
+
+check_fitting <- function(eventlog, PN) {
+
+    end_marking <- PN$final_marking
+
+    eventlog %>%
+        trace_list %>%
+        mutate(trace_vector = str_split(trace, ",")) %>%
+        mutate(is_fitting = map_lgl(trace_vector, ~parsel(net, .x))) -> list_of_traces
+
+    list_of_traces %>%
+        mutate(if_fitting = ifelse(is_fitting, map_lgl(trace_vector, ~ petrinetR::parse(net, .x)$marking == end_marking), FALSE)) -> list_of_traces
+
+    eventlog %>%
+        case_list %>%
+        inner_join(list_of_traces) %>%
+        filter(is_fitting) %>%
+        pull(case_id) -> fitting_case_ids
+
+    eventlog %>%
+        mutate(is_fitting = case_id %in% fitting_case_ids)
+}

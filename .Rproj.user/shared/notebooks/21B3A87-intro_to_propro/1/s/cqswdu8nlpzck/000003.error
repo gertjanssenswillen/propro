@@ -1,0 +1,1 @@
+{"frames":[{"character_number":0,"end_character_number":0,"end_line_number":0,"file":"","func":"add_variable(\"delta[1]\", \"<- beta[5] - beta[9]\")","line_number":0}],"message":"Error in propro_model$params : $ operator is invalid for atomic vectors\n"}

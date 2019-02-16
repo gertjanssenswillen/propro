@@ -1,0 +1,16 @@
+"0","create_propro(log, net) -> propro"
+"2","Joining, by = ""trace""
+"
+"2","Joining, by = c(""from_state"", ""to_state"")
+"
+"2","Joining, by = c(""from_state"", ""to_state"")
+"
+"2","Joining, by = c(""from_state"", ""to_state"")
+"
+"2","Vectorizing 'glue' elements may not preserve their attributes"
+"2","Vectorizing 'glue' elements may not preserve their attributes"
+"2","Vectorizing 'glue' elements may not preserve their attributes"
+"2","Vectorizing 'glue' elements may not preserve their attributes"
+"2","Vectorizing 'glue' elements may not preserve their attributes"
+"2","Joining, by = ""trace""
+"

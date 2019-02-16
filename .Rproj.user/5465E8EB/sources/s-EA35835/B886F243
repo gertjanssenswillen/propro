@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1550313511636.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3900072300",
+    "id" : "B886F243",
+    "lastKnownWriteTime" : 1550318046,
+    "last_content_update" : 1550318046374,
+    "path" : "~/UH - Local/R workspace/propro/R/list_priors.R",
+    "project_path" : "R/list_priors.R",
+    "properties" : {
+        "cursorPosition" : "6,23",
+        "scrollLine" : "0",
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
