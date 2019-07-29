@@ -25,6 +25,6 @@ Imports:
     readr
 Suggests: knitr
 VignetteBuilder: knitr
-URL: https://www.bupar.net, https://github.com/bupaverse/processmapr
-BugReports: https://github.com/bupaverse/processmapr/issues
+URL: https://www.bupar.net, https://github.com/bupaverse/propro
+BugReports: https://github.com/bupaverse/propro/issues
 
