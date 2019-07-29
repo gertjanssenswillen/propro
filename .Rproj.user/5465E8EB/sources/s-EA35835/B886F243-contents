@@ -1,8 +1,0 @@
-
-list_priors <- function(propro_model) {
-    propro_model$priors
-}
-
-list_traces <- function(propro_model) {
-    propro_model$traces
-}
